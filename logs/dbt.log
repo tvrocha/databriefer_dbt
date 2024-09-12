@@ -1,0 +1,42 @@
+[0m15:08:55.180107 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018748987500>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018747E5A120>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000187450EDF10>]}
+
+
+============================== 15:08:55.185621 | 7a9f3523-609a-485e-97ca-1e5d7d779906 ==============================
+[0m15:08:55.185621 [info ] [MainThread]: Running with dbt=1.8.6
+[0m15:08:55.186627 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\tulio\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt init vendas_dbt', 'send_anonymous_usage_stats': 'True'}
+[0m15:08:55.209167 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/tulio/.dbt')}
+[0m15:08:55.209167 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m15:08:55.211824 [debug] [MainThread]: Starter project path: C:\Users\tulio\OneDrive\Área de Trabalho\Python 2.0\Projetos [Estudos]\databriefer\.venv\Lib\site-packages\dbt\include\starter_project
+[0m15:08:55.230507 [info ] [MainThread]: 
+Your new dbt project "vendas_dbt" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:08:55.233506 [info ] [MainThread]: Setting up your profile.
+[0m15:08:55.234506 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No adapters available. Learn how to install an adapter by going to https://docs.getdbt.com/docs/connect-adapters#install-using-the-cli
+[0m15:08:55.236877 [debug] [MainThread]: Command `dbt init` failed at 15:08:55.236877 after 0.20 seconds
+[0m15:08:55.237875 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018747AD4950>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001874884D070>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000018747D91DC0>]}
+[0m15:08:55.237875 [debug] [MainThread]: Flushing usage events
+[0m15:13:07.611326 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027189B32450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000271869DA750>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002718C2BCE00>]}
+
+
+============================== 15:13:07.614834 | 1a7e4633-cb00-4daa-b0f2-03bf82dafde0 ==============================
+[0m15:13:07.614834 [info ] [MainThread]: Running with dbt=1.8.6
+[0m15:13:07.614834 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\tulio\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt init vendas_dbt', 'send_anonymous_usage_stats': 'True'}
+[0m15:13:07.631496 [info ] [MainThread]: A project called vendas_dbt already exists here.
+[0m15:13:07.633002 [debug] [MainThread]: Command `dbt init` succeeded at 15:13:07.633002 after 0.10 seconds
+[0m15:13:07.634008 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027189B32450>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027188C89E50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002718B9B1580>]}
+[0m15:13:07.634008 [debug] [MainThread]: Flushing usage events
